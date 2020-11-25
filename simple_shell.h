@@ -20,5 +20,6 @@ char **tokenize_env(char *var);
 char *_strcpy(char *dest, const char *src);
 char *_strcat(char *dest, const char *src);
 char *check_stat(char *cmd);
+int exec_cmd(char **arguments);
 char *get_line();
 #endif /* SIMPLE_SHELL_H */
