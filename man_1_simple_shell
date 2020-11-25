@@ -1,0 +1,53 @@
+.TH hsh-(Simple-Shell) 1 "20th NOVEMBER, 2020" "1" "hsh-(Simple-Shell) General Commands Manual"
+.SH NAME
+.B hsh 
+- A simple UNIX/LiNUX like command interpreter.
+.SH DESCRIPTION
+The hsh or Simple-Shell is simply a command line interface (CLI)
+program that takes commands from the keyboard and gives them to the
+operating system to perform.
+.SH INVOCATION
+This hsh is invoked by compiling all the .C files in the
+repository and thereafter run the excutable file. This can be done
+on a terminal emulator.
+.TP
+.B Compilation
+gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+.TP
+.B Testing
+\ ./hsh
+.SH
+ENVIRONMENT
+When hsh is invoked it receives and copies the environment of the parent
+process in which it was executed. It describe variables in the format
+\fINAME=VALUE\f.
+.TP
+.B PATH
+This  is where hsh looks for commands.
+.TP
+.B Exit_Status
+hsh returns zero to indicate success and non-zero failure.
+.SH
+hsh BUILTINS COMMANDS
+.TP
+.B exit
+Usage: \fB exit
+.nf
+Exits the hsh.
+.TP
+.B env
+Usage: \fBenv\fr
+.nf
+Prints the current environment.
+.TP
+.B pwd
+Usage: \fBpwd\fr
+.nf
+Prints the path of the working directory, starting from the root.
+.SH
+AUTHORS
+.TP
+Written by:
+Isaiah Ndara    <https://www.github.com/ISAIAH-max>
+.nf
+Moses Mrima     <https://www.github.com/Mosesmrima>
