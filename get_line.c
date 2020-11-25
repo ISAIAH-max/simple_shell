@@ -23,4 +23,3 @@ char *get_line()
 	}
 	return (line);
 }
-
