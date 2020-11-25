@@ -3,8 +3,8 @@
 /**
  *check_stat- A function that checks validity of a command
  *@cmd: command inserted
- *Return:If successful it returns the full PATH of the command
- *if it fails it returns NULL
+ *Return:If successful it returns the full PATH of command if found
+ *else returns the passed command
  */
 
 char *check_stat(char *cmd)
