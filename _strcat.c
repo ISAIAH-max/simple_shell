@@ -2,7 +2,7 @@
 
 /**
  *_strcat-A function that concatinate a String
- *@dest:Concatinated String
+ *@dest:destination of concatenated sytring
  *@src:The String to be concatinated
  *Return:Pointer to the concatinated String
  */
