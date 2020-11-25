@@ -1,7 +1,7 @@
 #include "simple_shell.h"
 
 /**
- *tokenize_env- A function that tokenize the PATH variable
+ *tokenize_env- tokenize the PATH variable
  *@var: Pointer to the array of directories
  *Return:Pointer to the array
  */
