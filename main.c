@@ -35,7 +35,7 @@ int main(void)
 }
 
 /**
-*prompt- A function that prints charcter "$ "
+*prompt-prints charcter "$ "
 */
 
 void prompt(void)
