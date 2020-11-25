@@ -6,7 +6,7 @@
  *Return: New environment
  */
 
-char **env_path()
+char **env_path(void)
 {
 	int index;
 	char *env = "PATH";
