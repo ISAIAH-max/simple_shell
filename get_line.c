@@ -2,7 +2,8 @@
 
 /**
  *get_line- A fuction that reads the users inputs
- *Return: Users input(Line)
+ *Return: Users input(Line) to the nain
+ *null on fail
  */
 char *get_line()
 {
