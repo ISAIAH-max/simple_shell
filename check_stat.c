@@ -11,13 +11,11 @@ char *check_stat(char *cmd)
 {
 	static char **arr;
 	char *buff;
-	int i;
 	struct stat st;
 
 	arr = env_path();
 	while (*arr++)
 	{
-		i = +1;
 		buff = *arr;
 		_strcat(buff, "/");
 		_strcat(buff, cmd);

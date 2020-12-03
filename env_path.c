@@ -1,5 +1,4 @@
 #include "simple_shell.h"
-
 /**
  *env_path- A function that stores the env variable PATH
  *on the if heap using malloc
@@ -11,16 +10,12 @@ char **env_path(void)
 	int index;
 	char *env = "PATH";
 	size_t  size;
+	char unused __attribute__((unused));
 	char **new_environ;
-	char *copy_env = _getenv(env);
+	char *copy_env __attribute__((__unused__)) = _getenv(env);
 
-	while (*copy_env != '=')
-	{
-		*copy_env++;
-	}
-	*copy_env++;
+	unused = *copy_env;
 	char **path_arr = tokenize_env(copy_env);
-	int i = 0;
 
 	for (size = 0; path_arr[size]; size++)
 	{
