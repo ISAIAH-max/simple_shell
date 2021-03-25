@@ -1,9 +1,9 @@
 #			     Simple Shell
 
 # Table of Content
-## Description
-## Files Structure
-## Authors
+* Description
+* Files Structure
+* Authors
 
 # Description
 * Simple Shell is a command line interface (CLI) program that takes commands
