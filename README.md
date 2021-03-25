@@ -1,4 +1,4 @@
-<h> Simple Shell </h>
+<p align= "center"> Simple Shell </p>
 
 # Table of Contents
 * Description
