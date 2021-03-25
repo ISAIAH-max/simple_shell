@@ -1,6 +1,6 @@
-#			     Simple Shell
+                                # Simple Shell
 
-# Table of Content
+# Table of Contents
 * Description
 * Files Structure
 * Authors
